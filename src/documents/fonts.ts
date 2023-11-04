@@ -20,3 +20,17 @@ Font.register({
     },
   ],
 });
+
+
+Font.registerHyphenationCallback((word) => {
+  if (word.length === 1) {
+    return [word];
+  }
+ 
+  return Array.from(word)
+    .map((char) => [char, ""])
+    .reduce((arr, current) => {
+      arr.push(...current);
+      return arr;
+    }, []);
+});
