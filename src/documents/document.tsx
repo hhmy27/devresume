@@ -9,7 +9,7 @@ import {
   ProjectsSection,
   PublicationsSection,
   SkillsSection,
-  VolunterrSection,
+  VolunteerSection,
   WorkSection,
 } from "./sections";
 import { Theme, createTheme } from "./theme";
@@ -91,7 +91,7 @@ export function ResumeDocument({ resume }: Props) {
           )}
 
           {volunteer && Array.isArray(volunteer) && (
-            <VolunterrSection theme={theme} volunteer={volunteer} />
+            <VolunteerSection theme={theme} volunteer={volunteer} />
           )}
         </VStack>
       </Page>

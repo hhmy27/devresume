@@ -60,7 +60,7 @@ type SectionProps = {
   theme: Theme;
 };
 
-export function VolunterrSection({ volunteer, theme }: SectionProps) {
+export function VolunteerSection({ volunteer, theme }: SectionProps) {
   return (
     <EventsSection theme={theme} title="Volunteer">
       {volunteer.map(
