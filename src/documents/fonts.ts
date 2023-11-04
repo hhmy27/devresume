@@ -1,20 +1,21 @@
 import { Font } from "@react-pdf/renderer";
 
+
 Font.register({
   family: "Roboto",
   fonts: [
     {
-      src: "RobotoRegular.ttf",
+      src: "SourceHanSansCN-Regular.otf",
       fontWeight: "normal",
     },
 
     {
-      src: "RobotoMedium.ttf",
+      src: "SourceHanSansCN-Regular.otf",
       fontWeight: "medium",
     },
 
     {
-      src: "RobotoItalic.ttf",
+      src: "SourceHanSansCN-Regular.otf",
       fontStyle: "italic",
     },
   ],
