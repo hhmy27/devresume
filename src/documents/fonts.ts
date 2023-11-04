@@ -5,17 +5,20 @@ Font.register({
   family: "Roboto",
   fonts: [
     {
-      src: "SourceHanSansCN-Regular.otf",
+      src: "AdobeSongStd-Light.otf",
+      // src: "RobotoRegular.ttf",
       fontWeight: "normal",
     },
 
     {
-      src: "SourceHanSansCN-Regular.otf",
+      src: "AdobeKaitiStd-Regular.otf",
+      // src: "RobotoMedium.ttf",
       fontWeight: "medium",
     },
 
     {
-      src: "SourceHanSansCN-Regular.otf",
+      src: "AdobeHeitiStd-Regular.otf",
+      // src: "RobotoItalic.ttf",
       fontStyle: "italic",
     },
   ],
