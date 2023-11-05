@@ -29,7 +29,11 @@ i18n
                     education: `Education`,
                     works: `Work Experience`,
                     awards: 'Awards',
-                    publications: 'Publications'
+                    publications: 'Publications',
+                    save: 'Save',
+                    open: 'Open',
+                    new: 'New',
+                    export: 'Export'
                 }
             },
             zh: {
@@ -39,7 +43,11 @@ i18n
                     education: `教育背景`,
                     works: `工作经历`,
                     awards: '荣誉',
-                    publications: '发表'
+                    publications: '发表',
+                    save: '保存',
+                    open: '打开',
+                    new: '新建',
+                    export: '导出'
                 }
             }
         }
