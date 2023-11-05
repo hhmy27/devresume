@@ -33,7 +33,9 @@ i18n
                     save: 'Save',
                     open: 'Open',
                     new: 'New',
-                    export: 'Export'
+                    export: 'Export',
+                    otherinfo: 'Other Info',
+                    monthNames: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
                 }
             },
             zh: {
@@ -47,7 +49,23 @@ i18n
                     save: '保存',
                     open: '打开',
                     new: '新建',
-                    export: '导出'
+                    export: '导出',
+                    otherinfo: '其它',
+                    // monthNames: ['1月', '2月', '3月', '4月', '5月', '6月', '7月', '8月', '9月', '10月', '11月', '12月']
+                    monthNames: {
+                        '1': '一月',
+                        '2': '二月',
+                        '3': '三月',
+                        '4': '四月',
+                        '5': '五月',
+                        '6': '六月',
+                        '7': '七月',
+                        '8': '八月',
+                        '9': '九月',
+                        '10': '十月',
+                        '11': '十一月',
+                        '12': '十二月'
+                    }
                 }
             }
         }
